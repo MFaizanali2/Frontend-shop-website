@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-wrapper{
+    width: 100%;
+    height: auto;
+}
+.some{
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    padding: 8px 0px;
+    color: #fff;
+}
+.navbar{
+    background-color: #fff !important;
+}
+.container-fluid{
+    padding: 0px 25px !important;
+    text-align: center;
+}
+.navbar-nav{
+    padding: 0px 20px;
+    font-weight: bold !important;
+}
+.nav-link{
+    font-size: 20px !important;
+    color: #000;
+}
+.nav-item{
+    padding: 0px 5px;
+}
+.header-icon{
+    padding: 4px 40px;
+}
+.form-control{
+    padding: 8px 80px;
+}
+.header-icon i{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 8px 20px;
+}
